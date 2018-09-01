@@ -1,0 +1,1197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Advanced</class>
+ <widget class="QDialog" name="Advanced">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>482</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>400</width>
+    <height>482</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>400</width>
+    <height>482</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Advanced Settings</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="icons.qrc">
+    <normaloff>:/settings.png</normaloff>:/settings.png</iconset>
+  </property>
+  <property name="locale">
+   <locale language="English" country="UnitedStates"/>
+  </property>
+  <widget class="QCheckBox" name="checkBox_1">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>190</y>
+     <width>241</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>241</width>
+     <height>17</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>241</width>
+     <height>17</height>
+    </size>
+   </property>
+   <property name="text">
+    <string>Periodically resolve supernode IP Address</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_5">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>225</y>
+     <width>259</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>259</width>
+     <height>17</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>259</width>
+     <height>17</height>
+    </size>
+   </property>
+   <property name="text">
+    <string>Use http tunneling</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_6">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>245</y>
+     <width>259</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>259</width>
+     <height>17</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>259</width>
+     <height>17</height>
+    </size>
+   </property>
+   <property name="text">
+    <string>Enable packet forwarding through n2n community</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_7">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>265</y>
+     <width>259</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>259</width>
+     <height>17</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>259</width>
+     <height>17</height>
+    </size>
+   </property>
+   <property name="text">
+    <string>Increase edge Verbose</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_1">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>318</y>
+     <width>381</width>
+     <height>148</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>381</width>
+     <height>148</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>381</width>
+     <height>148</height>
+    </size>
+   </property>
+   <property name="title">
+    <string>Advanced Settings</string>
+   </property>
+   <widget class="QCheckBox" name="checkBox_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>45</y>
+      <width>236</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>236</width>
+      <height>20</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>236</width>
+      <height>20</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>Local port for connecting to supernode</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>20</y>
+      <width>113</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>113</width>
+      <height>20</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>113</width>
+      <height>20</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>20</y>
+      <width>111</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>111</width>
+      <height>20</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>111</width>
+      <height>20</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Interface IP Mode:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_8">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>45</y>
+      <width>113</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>113</width>
+      <height>20</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>113</width>
+      <height>20</height>
+     </size>
+    </property>
+    <property name="inputMethodHints">
+     <set>Qt::ImhPreferNumbers</set>
+    </property>
+    <property name="text">
+     <string>86</string>
+    </property>
+    <property name="maxLength">
+     <number>4</number>
+    </property>
+    <property name="cursorPosition">
+     <number>2</number>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_9">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>70</y>
+      <width>113</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>113</width>
+      <height>20</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>113</width>
+      <height>20</height>
+     </size>
+    </property>
+    <property name="inputMethodHints">
+     <set>Qt::ImhNoAutoUppercase|Qt::ImhPreferLowercase|Qt::ImhPreferNumbers|Qt::ImhPreferUppercase</set>
+    </property>
+    <property name="inputMask">
+     <string/>
+    </property>
+    <property name="text">
+     <string>00:FF:06:62:95:52</string>
+    </property>
+    <property name="maxLength">
+     <number>17</number>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_10">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>94</y>
+      <width>113</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>113</width>
+      <height>20</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>113</width>
+      <height>20</height>
+     </size>
+    </property>
+    <property name="inputMethodHints">
+     <set>Qt::ImhPreferNumbers</set>
+    </property>
+    <property name="text">
+     <string>1400</string>
+    </property>
+    <property name="maxLength">
+     <number>4</number>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>70</y>
+      <width>236</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>236</width>
+      <height>20</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>236</width>
+      <height>20</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>MAC address for the TAP interface</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox_4">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>94</y>
+      <width>236</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>236</width>
+      <height>20</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>236</width>
+      <height>20</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>MTU (Default: 1400)</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>118</y>
+      <width>113</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>113</width>
+      <height>20</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>113</width>
+      <height>20</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>5645</string>
+    </property>
+    <property name="maxLength">
+     <number>4</number>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox_11">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>118</y>
+      <width>236</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>236</width>
+      <height>20</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>236</width>
+      <height>20</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>Management UDP Port (Default: 5645)</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>172</y>
+     <width>259</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>259</width>
+     <height>45</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>259</width>
+     <height>45</height>
+    </size>
+   </property>
+   <property name="title">
+    <string>When supernodes are running on dynamic IPs</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>259</width>
+     <height>150</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>259</width>
+     <height>150</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>259</width>
+     <height>150</height>
+    </size>
+   </property>
+   <property name="title">
+    <string>Application Settings</string>
+   </property>
+   <property name="flat">
+    <bool>false</bool>
+   </property>
+   <widget class="QCheckBox" name="checkBox">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>19</y>
+      <width>171</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>171</width>
+      <height>17</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>171</width>
+      <height>17</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>Hide application on StartUp</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox_8">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>39</y>
+      <width>171</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>171</width>
+      <height>17</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>171</width>
+      <height>17</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>Hide application on Close</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox_9">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>59</y>
+      <width>171</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>171</width>
+      <height>17</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>171</width>
+      <height>17</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>Log Verbose to file</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox_12">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>80</y>
+      <width>171</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>171</width>
+      <height>17</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>171</width>
+      <height>17</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>Turn off app tray notification</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox_13">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>100</y>
+      <width>171</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>171</width>
+      <height>17</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>171</width>
+      <height>17</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>Turn off chat tray notification</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox_14">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>120</y>
+      <width>171</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>171</width>
+      <height>17</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>171</width>
+      <height>17</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>Turn off chat sound</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="pushButton_ok">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>30</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>75</width>
+     <height>23</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>75</width>
+     <height>23</height>
+    </size>
+   </property>
+   <property name="text">
+    <string>Ok</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_apply">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>60</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>75</width>
+     <height>23</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>75</width>
+     <height>23</height>
+    </size>
+   </property>
+   <property name="text">
+    <string>Apply</string>
+   </property>
+   <property name="flat">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_3">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>94</y>
+     <width>80</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>80</width>
+     <height>61</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>80</width>
+     <height>61</height>
+    </size>
+   </property>
+   <property name="title">
+    <string>N2N Version:</string>
+   </property>
+   <widget class="QRadioButton" name="radioButton_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>38</y>
+      <width>60</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>60</width>
+      <height>17</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>60</width>
+      <height>17</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>v2</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>18</y>
+      <width>60</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>60</width>
+      <height>17</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>60</width>
+      <height>17</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>v1</string>
+    </property>
+    <property name="checked">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_10">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>285</y>
+     <width>259</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>259</width>
+     <height>17</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>259</width>
+     <height>17</height>
+    </size>
+   </property>
+   <property name="text">
+    <string>Enable multicast MAC addresses</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_4">
+   <property name="geometry">
+    <rect>
+     <x>289</x>
+     <y>172</y>
+     <width>91</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Chat</string>
+   </property>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>50</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Nickname:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>40</y>
+      <width>71</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>71</width>
+      <height>20</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>71</width>
+      <height>20</height>
+     </size>
+    </property>
+    <property name="baseSize">
+     <size>
+      <width>71</width>
+      <height>20</height>
+     </size>
+    </property>
+    <property name="maxLength">
+     <number>20</number>
+    </property>
+    <property name="placeholderText">
+     <string>User</string>
+    </property>
+   </widget>
+  </widget>
+  <zorder>groupBox_2</zorder>
+  <zorder>groupBox_1</zorder>
+  <zorder>checkBox_1</zorder>
+  <zorder>checkBox_5</zorder>
+  <zorder>checkBox_6</zorder>
+  <zorder>checkBox_7</zorder>
+  <zorder>groupBox</zorder>
+  <zorder>pushButton_ok</zorder>
+  <zorder>pushButton_apply</zorder>
+  <zorder>groupBox_3</zorder>
+  <zorder>checkBox_10</zorder>
+  <zorder>groupBox_4</zorder>
+ </widget>
+ <resources>
+  <include location="icons.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>checkBox_2</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>lineEdit_8</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>205</x>
+     <y>187</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>268</x>
+     <y>190</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_3</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>lineEdit_9</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>217</x>
+     <y>213</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>273</x>
+     <y>219</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_4</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>lineEdit_10</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>172</x>
+     <y>245</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>276</x>
+     <y>244</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>pushButton_apply</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>339</x>
+     <y>128</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>337</x>
+     <y>71</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton_2</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>pushButton_apply</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>339</x>
+     <y>148</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>337</x>
+     <y>71</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>comboBox</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>339</x>
+     <y>128</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>323</x>
+     <y>269</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton_2</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>comboBox</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>339</x>
+     <y>148</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>323</x>
+     <y>269</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>checkBox_10</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>339</x>
+     <y>128</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>149</x>
+     <y>223</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>checkBox_11</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>339</x>
+     <y>128</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>165</x>
+     <y>243</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_11</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>lineEdit</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>85</x>
+     <y>243</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>326</x>
+     <y>249</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton_2</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>checkBox_5</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>339</x>
+     <y>148</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>149</x>
+     <y>163</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>lineEdit</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>339</x>
+     <y>128</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>326</x>
+     <y>367</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton_2</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>lineEdit</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>339</x>
+     <y>148</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>326</x>
+     <y>367</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>label</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>339</x>
+     <y>128</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>95</x>
+     <y>269</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_apply</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>pushButton_ok</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>337</x>
+     <y>71</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>337</x>
+     <y>41</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>pushButton_ok</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>339</x>
+     <y>128</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>337</x>
+     <y>41</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton_2</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>pushButton_ok</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>339</x>
+     <y>148</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>337</x>
+     <y>41</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

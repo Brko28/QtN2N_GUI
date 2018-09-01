@@ -1,0 +1,34 @@
+tapinstall [-r] [-m:\\<machine>] <command> [<arg>...]
+
+-r           Reboots the system only when a restart or reboot is required.
+<machine>    Specifies a remote computer.
+<command>    Specifies a Devcon command (see command list below).
+<arg>...     One or more arguments that modify a command.
+
+For help with a specific command, type: tapinstall help <command>
+classfilter          Add, delete, and reorder class filters.
+
+classes              List all device setup classes.
+disable              Disable devices.
+driverfiles          List installed driver files for devices.
+drivernodes          List driver nodes of devices.
+enable               Enable devices.
+find                 Find devices.
+findall              Find devices, including those that are not currently attached.
+help                 Display Devcon help.
+hwids                List hardware IDs of devices.
+install              Install a device manually.
+listclass            List all devices in a setup class.
+reboot               Reboot the local computer.
+remove               Remove devices.
+rescan               Scan for new hardware.
+resources            List hardware resources for devices.
+restart              Restart devices.
+sethwid              Modify Hardware IDs of listed root-enumerated devices.
+stack                List expected driver stack for devices.
+status               List running status of devices.
+update               Update a device manually.
+updateni             Manually update a device (non interactive).
+dp_add               Adds (installs) a third-party (OEM) driver package.
+dp_delete            Deletes a third-party (OEM) driver package.
+dp_enum              Lists the third-party (OEM) driver packages installed on this machine.

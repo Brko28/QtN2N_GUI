@@ -1,0 +1,877 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>335</width>
+    <height>377</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>335</width>
+    <height>377</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>800</width>
+    <height>377</height>
+   </size>
+  </property>
+  <property name="contextMenuPolicy">
+   <enum>Qt::DefaultContextMenu</enum>
+  </property>
+  <property name="windowTitle">
+   <string>QtN2N GUI</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="icons.qrc">
+    <normaloff>:/GUI_n2n.png</normaloff>:/GUI_n2n.png</iconset>
+  </property>
+  <property name="locale">
+   <locale language="English" country="UnitedStates"/>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <property name="contextMenuPolicy">
+    <enum>Qt::DefaultContextMenu</enum>
+   </property>
+   <property name="locale">
+    <locale language="English" country="UnitedStates"/>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QTabWidget" name="tabInfo">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="sizeIncrement">
+       <size>
+        <width>0</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="contextMenuPolicy">
+       <enum>Qt::DefaultContextMenu</enum>
+      </property>
+      <property name="locale">
+       <locale language="English" country="UnitedStates"/>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_0">
+       <property name="contextMenuPolicy">
+        <enum>Qt::DefaultContextMenu</enum>
+       </property>
+       <property name="locale">
+        <locale language="English" country="UnitedStates"/>
+       </property>
+       <attribute name="title">
+        <string>Connectivity</string>
+       </attribute>
+       <widget class="QComboBox" name="comboBox">
+        <property name="geometry">
+         <rect>
+          <x>160</x>
+          <y>30</y>
+          <width>113</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="toolTip">
+         <string extracomment="Select your profile."/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_1">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>30</y>
+          <width>81</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Network Profile:</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_1">
+        <property name="geometry">
+         <rect>
+          <x>160</x>
+          <y>70</y>
+          <width>113</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="toolTip">
+         <string extracomment="Enter Server IP Address."/>
+        </property>
+        <property name="inputMethodHints">
+         <set>Qt::ImhPreferNumbers</set>
+        </property>
+        <property name="inputMask">
+         <string/>
+        </property>
+        <property name="text">
+         <string>88.86.108.50</string>
+        </property>
+        <property name="maxLength">
+         <number>15</number>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_2">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>70</y>
+          <width>91</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Server IP Address:</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_3">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>100</y>
+          <width>61</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Server Port:</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_2">
+        <property name="geometry">
+         <rect>
+          <x>160</x>
+          <y>100</y>
+          <width>113</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="toolTip">
+         <string extracomment="Enter Server Port."/>
+        </property>
+        <property name="inputMethodHints">
+         <set>Qt::ImhPreferNumbers</set>
+        </property>
+        <property name="text">
+         <string>86</string>
+        </property>
+        <property name="maxLength">
+         <number>4</number>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_3">
+        <property name="geometry">
+         <rect>
+          <x>160</x>
+          <y>130</y>
+          <width>113</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="toolTip">
+         <string extracomment="Enter Name of Network."/>
+        </property>
+        <property name="inputMethodHints">
+         <set>Qt::ImhPreferLowercase|Qt::ImhPreferNumbers|Qt::ImhPreferUppercase</set>
+        </property>
+        <property name="text">
+         <string>games</string>
+        </property>
+        <property name="maxLength">
+         <number>15</number>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_4">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>130</y>
+          <width>81</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Network Name:</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_4">
+        <property name="geometry">
+         <rect>
+          <x>160</x>
+          <y>160</y>
+          <width>113</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="toolTip">
+         <string extracomment="Enter Network Password."/>
+        </property>
+        <property name="inputMethodHints">
+         <set>Qt::ImhHiddenText|Qt::ImhNoAutoUppercase|Qt::ImhNoPredictiveText|Qt::ImhPreferLowercase|Qt::ImhPreferNumbers|Qt::ImhPreferUppercase|Qt::ImhSensitiveData</set>
+        </property>
+        <property name="text">
+         <string>games</string>
+        </property>
+        <property name="maxLength">
+         <number>15</number>
+        </property>
+        <property name="echoMode">
+         <enum>QLineEdit::Password</enum>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_5">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>160</y>
+          <width>91</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Network Password:</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_6">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>190</y>
+          <width>121</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>TAP-Adapter IP Address:</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_7">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>220</y>
+          <width>71</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Subnet Mask:</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_5">
+        <property name="geometry">
+         <rect>
+          <x>160</x>
+          <y>190</y>
+          <width>113</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="toolTip">
+         <string extracomment="Enter local TAP-Adapter IP Address."/>
+        </property>
+        <property name="inputMethodHints">
+         <set>Qt::ImhPreferNumbers</set>
+        </property>
+        <property name="inputMask">
+         <string/>
+        </property>
+        <property name="text">
+         <string>192.168.10.10</string>
+        </property>
+        <property name="maxLength">
+         <number>15</number>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_6">
+        <property name="geometry">
+         <rect>
+          <x>160</x>
+          <y>220</y>
+          <width>113</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="toolTip">
+         <string extracomment="Enter Network Subnet Mask."/>
+        </property>
+        <property name="inputMethodHints">
+         <set>Qt::ImhPreferNumbers</set>
+        </property>
+        <property name="inputMask">
+         <string/>
+        </property>
+        <property name="text">
+         <string>255.255.255.0</string>
+        </property>
+        <property name="maxLength">
+         <number>15</number>
+        </property>
+       </widget>
+       <widget class="QWidget" name="layoutWidget">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>260</y>
+          <width>253</width>
+          <height>25</height>
+         </rect>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_5">
+         <property name="spacing">
+          <number>25</number>
+         </property>
+         <item>
+          <widget class="QPushButton" name="edgeConnectButton">
+           <property name="minimumSize">
+            <size>
+             <width>113</width>
+             <height>23</height>
+            </size>
+           </property>
+           <property name="toolTip">
+            <string extracomment="Click &quot;Connect&quot; to start edge Client."/>
+           </property>
+           <property name="text">
+            <string>Connect</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="edgeDisconnectButton">
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>113</width>
+             <height>23</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>Disconnect</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_1">
+       <property name="contextMenuPolicy">
+        <enum>Qt::DefaultContextMenu</enum>
+       </property>
+       <attribute name="title">
+        <string>Supernode</string>
+       </attribute>
+       <layout class="QFormLayout" name="formLayout_2">
+        <item row="0" column="0" colspan="2">
+         <widget class="QSplitter" name="splitter">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <widget class="QLabel" name="label_15">
+           <property name="text">
+            <string>Port:</string>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="lineEdit_7">
+           <property name="inputMethodHints">
+            <set>Qt::ImhPreferNumbers</set>
+           </property>
+           <property name="text">
+            <string>86</string>
+           </property>
+           <property name="maxLength">
+            <number>4</number>
+           </property>
+          </widget>
+          <widget class="QCheckBox" name="checkBox_0">
+           <property name="text">
+            <string>Increase Verbose.</string>
+           </property>
+          </widget>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLabel" name="label">
+          <property name="text">
+           <string>Info:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="0" colspan="2">
+         <widget class="QTextEdit" name="textEdit_2">
+          <property name="minimumSize">
+           <size>
+            <width>290</width>
+            <height>190</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>190</height>
+           </size>
+          </property>
+          <property name="undoRedoEnabled">
+           <bool>false</bool>
+          </property>
+          <property name="lineWrapMode">
+           <enum>QTextEdit::WidgetWidth</enum>
+          </property>
+          <property name="readOnly">
+           <bool>true</bool>
+          </property>
+          <property name="textInteractionFlags">
+           <set>Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="0" colspan="2">
+         <layout class="QFormLayout" name="formLayout_3">
+          <property name="labelAlignment">
+           <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+          </property>
+          <property name="formAlignment">
+           <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+          </property>
+          <property name="horizontalSpacing">
+           <number>10</number>
+          </property>
+          <property name="verticalSpacing">
+           <number>10</number>
+          </property>
+          <property name="topMargin">
+           <number>9</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item row="0" column="0">
+           <widget class="QPushButton" name="nodeStartButton">
+            <property name="minimumSize">
+             <size>
+              <width>75</width>
+              <height>23</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>75</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>Start</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QPushButton" name="nodeStopButton">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>75</width>
+              <height>23</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>75</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>Stop</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+       <zorder>label</zorder>
+       <zorder>textEdit_2</zorder>
+       <zorder>splitter</zorder>
+      </widget>
+      <widget class="QWidget" name="tab_2">
+       <property name="locale">
+        <locale language="English" country="UnitedStates"/>
+       </property>
+       <attribute name="title">
+        <string>Edge Info</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <item>
+         <widget class="QTextEdit" name="textEdit_1">
+          <property name="maximumSize">
+           <size>
+            <width>800</width>
+            <height>377</height>
+           </size>
+          </property>
+          <property name="undoRedoEnabled">
+           <bool>false</bool>
+          </property>
+          <property name="lineWrapMode">
+           <enum>QTextEdit::WidgetWidth</enum>
+          </property>
+          <property name="readOnly">
+           <bool>true</bool>
+          </property>
+          <property name="textInteractionFlags">
+           <set>Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_3">
+       <property name="contextMenuPolicy">
+        <enum>Qt::DefaultContextMenu</enum>
+       </property>
+       <attribute name="title">
+        <string>Chat</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_2">
+        <item row="0" column="1">
+         <widget class="QListWidget" name="userListWidget">
+          <property name="minimumSize">
+           <size>
+            <width>110</width>
+            <height>240</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>110</width>
+            <height>240</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0">
+         <widget class="QTextEdit" name="roomTextEdit">
+          <property name="minimumSize">
+           <size>
+            <width>170</width>
+            <height>240</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>240</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+           </font>
+          </property>
+          <property name="contextMenuPolicy">
+           <enum>Qt::CustomContextMenu</enum>
+          </property>
+          <property name="undoRedoEnabled">
+           <bool>false</bool>
+          </property>
+          <property name="lineWrapMode">
+           <enum>QTextEdit::WidgetWidth</enum>
+          </property>
+          <property name="readOnly">
+           <bool>true</bool>
+          </property>
+          <property name="textInteractionFlags">
+           <set>Qt::LinksAccessibleByKeyboard|Qt::LinksAccessibleByMouse|Qt::TextBrowserInteraction|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="0" colspan="2">
+         <layout class="QFormLayout" name="formLayout">
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>8</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_8">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>22</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>22</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>Message:</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QLineEdit" name="sayLineEdit">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>22</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>22</height>
+             </size>
+            </property>
+            <property name="sizeIncrement">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="toolTip">
+             <string>Write the message here...</string>
+            </property>
+            <property name="placeholderText">
+             <string>Write the message here...</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_4">
+       <attribute name="title">
+        <string>Info</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <widget class="QTextEdit" name="textEditInfo">
+          <property name="undoRedoEnabled">
+           <bool>false</bool>
+          </property>
+          <property name="readOnly">
+           <bool>true</bool>
+          </property>
+          <property name="textInteractionFlags">
+           <set>Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>335</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="locale">
+    <locale language="English" country="UnitedStates"/>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="locale">
+     <locale language="English" country="UnitedStates"/>
+    </property>
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionSave"/>
+    <addaction name="separator"/>
+    <addaction name="actionAdvanced"/>
+    <addaction name="separator"/>
+    <addaction name="actionHide_to_Tray"/>
+    <addaction name="separator"/>
+    <addaction name="actionExit"/>
+    <addaction name="separator"/>
+   </widget>
+   <widget class="QMenu" name="menuHelp">
+    <property name="title">
+     <string>Help</string>
+    </property>
+    <addaction name="actionHelp"/>
+    <addaction name="actionAbout"/>
+    <addaction name="actionAboutQt"/>
+   </widget>
+   <widget class="QMenu" name="menuTools">
+    <property name="title">
+     <string>Tools</string>
+    </property>
+    <addaction name="actionList_TAP_Adapters"/>
+    <addaction name="separator"/>
+    <addaction name="actionAdd_TAP_Adapter"/>
+    <addaction name="actionDel_TAP_Adapter"/>
+    <addaction name="separator"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuTools"/>
+   <addaction name="menuHelp"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar">
+   <property name="contextMenuPolicy">
+    <enum>Qt::NoContextMenu</enum>
+   </property>
+   <property name="locale">
+    <locale language="English" country="UnitedStates"/>
+   </property>
+  </widget>
+  <action name="actionSave">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/save.png</normaloff>:/save.png</iconset>
+   </property>
+   <property name="text">
+    <string>Save Network Profile</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
+   </property>
+  </action>
+  <action name="actionExit">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/exit.png</normaloff>:/exit.png</iconset>
+   </property>
+   <property name="text">
+    <string>Exit</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Q</string>
+   </property>
+  </action>
+  <action name="actionHelp">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/help.png</normaloff>:/help.png</iconset>
+   </property>
+   <property name="text">
+    <string>Help</string>
+   </property>
+   <property name="shortcut">
+    <string>F1</string>
+   </property>
+  </action>
+  <action name="actionAbout">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/info.png</normaloff>:/info.png</iconset>
+   </property>
+   <property name="text">
+    <string>About</string>
+   </property>
+  </action>
+  <action name="actionAboutQt">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/qt.png</normaloff>:/qt.png</iconset>
+   </property>
+   <property name="text">
+    <string>About Qt</string>
+   </property>
+  </action>
+  <action name="actionAdvanced">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/settings.png</normaloff>:/settings.png</iconset>
+   </property>
+   <property name="text">
+    <string>Advanced Settings</string>
+   </property>
+  </action>
+  <action name="actionHide_to_Tray">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/minimize.png</normaloff>:/minimize.png</iconset>
+   </property>
+   <property name="text">
+    <string>Hide to Tray</string>
+   </property>
+  </action>
+  <action name="actionAdd_TAP_Adapter">
+   <property name="text">
+    <string>Add TAP-Adapter</string>
+   </property>
+  </action>
+  <action name="actionDel_TAP_Adapter">
+   <property name="text">
+    <string>Delete TAP-Adapter</string>
+   </property>
+  </action>
+  <action name="actionList_TAP_Adapters">
+   <property name="text">
+    <string>Check TAP-Adapters</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="icons.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>actionHide_to_Tray</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>hide()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>157</x>
+     <y>188</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
