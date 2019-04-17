@@ -172,7 +172,10 @@
          <string>86</string>
         </property>
         <property name="maxLength">
-         <number>4</number>
+         <number>5</number>
+        </property>
+        <property name="cursorPosition">
+         <number>2</number>
         </property>
        </widget>
        <widget class="QLineEdit" name="lineEdit_3">
@@ -398,7 +401,7 @@
             <string>86</string>
            </property>
            <property name="maxLength">
-            <number>4</number>
+            <number>5</number>
            </property>
           </widget>
           <widget class="QCheckBox" name="checkBox_0">
