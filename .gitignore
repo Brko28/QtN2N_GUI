@@ -30,3 +30,36 @@
 *.exe
 *.out
 *.app
+release/logs/supernode.log
+*.log
+*.8-pre1
+*.user
+!debug/
+debug/*
+!logs/
+logs/*
+!old/
+old/*
+!release/
+release/*
+*.bat
+edge commands.txt
+edge2 commands.txt
+napravi.txt
+supernode2 commands.txt
+.qmake.stash
+Makefile
+Makefile.Debug
+Makefile.Release
+n2n_gui.pro.user
+n2n_gui.pro.user.2855d0d
+object_script.n2n_gui.Debug
+object_script.n2n_gui.Release
+*.qmake.stash
+/Makefile
+*.Debug
+*.Release
+*.pro.user
+*.pro.user.2855d0d
+*.n2n_gui.Debug
+*.n2n_gui.Release
